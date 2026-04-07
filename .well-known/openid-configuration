@@ -1,0 +1,11 @@
+{
+  "issuer": "https://rpokarna95.github.io/fake-oidc-provider",
+  "authorization_endpoint": "https://rpokarna95.github.io/fake-oidc-provider/authorize",
+  "token_endpoint": "https://rpokarna95.github.io/fake-oidc-provider/token",
+  "jwks_uri": "https://rpokarna95.github.io/fake-oidc-provider/jwks.json",
+  "response_types_supported": ["code", "token"],
+  "subject_types_supported": ["public"],
+  "id_token_signing_alg_values_supported": ["RS256"],
+  "scopes_supported": ["openid", "email", "profile"],
+  "token_endpoint_auth_methods_supported": ["client_secret_basic", "client_secret_post"]
+}
